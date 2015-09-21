@@ -1,0 +1,97 @@
+{
+  "title": "Licenses",
+  "name": "licenses",
+  "description": "a list of characterized licenses.",
+  "sources": [
+     {
+      "name":"Open Definition Licenses Service",
+      "web": "http://licenses.opendefinition.org"
+     }
+   ],
+  "licenses": [
+    {
+      "url": "http://www.opendefinition.org/licenses/odc-pddl",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "id": "ODC-PDDL-1.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "licenses.csv",
+      "path": "data/licenses.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_label",
+            "type": "string",
+            "description": "lower case and cut-digits id"
+          },
+          {
+            "name": "id_version",
+            "type": "string",
+            "description": "version code or number of the license"            
+          },
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "family",
+            "type": "string",
+            "description": "the id_label of the most similar canonic license"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "is_generic",
+            "type": "number"
+          },
+          {
+            "name": "domain_content",
+            "type": "string",
+            "description": "Content License"
+          },
+          {
+            "name": "domain_data",
+            "type": "string",
+            "description": "Data License"
+          },
+          {
+            "name": "domain_software",
+            "type": "string",
+            "description": "Software License"
+          },
+          {
+            "name": "od_conformance",
+            "type": "string",
+            "description": "Conforming to the Open Definition"
+          },
+          {
+            "name": "osd_conformance",
+            "type": "string",
+            "description": "Conforming to Open Source Definition"
+          },
+          {
+            "name": "maintainer",
+            "type": "number"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "url_original",
+            "type": "string"
+          }          
+        ]
+      }
+    }
+  ]
+}
