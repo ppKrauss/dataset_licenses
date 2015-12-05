@@ -6,6 +6,14 @@
      {
       "name":"Open Definition Licenses Service",
       "web": "http://licenses.opendefinition.org"
+     },
+     {
+      "name":"Open Source Licenses",
+      "web": "http://opensource.org/licenses"
+     },
+     {
+      "name":"Wikipedia's license articles",
+      "web": "https://en.wikipedia.org"
      }
    ],
   "licenses": [
@@ -33,8 +41,9 @@
             "description": "version code or number of the license"            
           },
           {
-            "name": "id",
-            "type": "string"
+            "name": "name",
+            "type": "string",
+            "description": "a convention for short-name, based on usual labels or short-titles"
           },
           {
             "name": "family",
@@ -43,25 +52,42 @@
           },
           {
             "name": "status",
-            "type": "string"
+            "type": "string",
+            "description": "the use-status of the license, as 'active', 'superseded' or 'retired'"
+          },
+          {
+            "name": "is_by",
+            "type": "boolean",
+            "description": "is like CC-BY, have an attribution clause"
+          },
+          {
+            "name": "is_sa",
+            "type": "boolean",
+            "description": "is like CC-SA, have an share-alike clause"
+          },
+          {
+            "name": "is_nreus",
+            "type": "boolean",
+            "description": "is non-reusable, as illustred by opensource.org category"
           },
           {
             "name": "is_generic",
-            "type": "number"
+            "type": "boolean",
+            "description": "is a generic license, applied to more tham one domain"
           },
           {
             "name": "domain_content",
-            "type": "string",
+            "type": "boolean",
             "description": "Content License"
           },
           {
             "name": "domain_data",
-            "type": "string",
+            "type": "boolean",
             "description": "Data License"
           },
           {
             "name": "domain_software",
-            "type": "string",
+            "type": "boolean",
             "description": "Software License"
           },
           {
