@@ -11,7 +11,7 @@ The [licenses.csv](./data/licenses.csv) have all relevant active licenses, and l
 
 Redundant licences are listed at [redundant.csv](./data/redundant.csv), relating with its equivalent (synonymous) licences, as illustred by the "Licenses that are redundant with more popular licenses" at [opensource.org/licenses/category](http://opensource.org/licenses/category). 
 
-The [familyOpenessDegree.csv](./data/familyOpenessDegree.csv) is a workaround, to reports or interfaces, that need some "sort by openness degreee" criteria. 
+The [family.csv](./data/family.csv) is a workaround, to reports or interfaces, that need some "sort by openness degreee" criteria. 
 
 
 ## Preparation
