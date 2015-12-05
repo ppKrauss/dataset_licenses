@@ -38,17 +38,17 @@
           {
             "name": "id_version",
             "type": "string",
-            "description": "version code or number of the license"            
+            "description": "version code or number of the license"
           },
           {
             "name": "name",
             "type": "string",
-            "description": "a convention for short-name, based on usual labels or short-titles"
+            "description": "(primary key) a convention for short-name, based on usual labels or short-titles"
           },
           {
             "name": "family",
             "type": "string",
-            "description": "the id_label of the most similar canonic license"
+            "description": "(foreign key) the id_label of the most similar canonic license"
           },
           {
             "name": "status",
@@ -119,7 +119,90 @@
             "name": "url_original",
             "type": "string",
             "description": "Original URL of the license definition"
-          }          
+          }
+        ]
+      }
+    },
+    {
+      "name": "redundant.csv",
+      "path": "data/redundant.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_label",
+            "type": "string",
+            "description": "lower case and cut-digits id"
+          },
+          {
+            "name": "id_version",
+            "type": "string",
+            "description": "version code or number of the license"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "(primary key) a convention for short-name, based on usual labels or short-titles"
+          },
+          {
+            "name": "family",
+            "type": "string",
+            "description": "the id_label of the most similar canonic license"
+          },
+          {
+            "name": "name_of_equiv",
+            "type": "string",
+            "description": "(foreign key) the name of the equivalent-license in the licences.csv file"
+          },
+          {
+            "name": "maintainer",
+            "type": "string",
+            "description": "Name of the mantainer (people or organization)"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Title (complete name) of the license"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Reliable URL of the license definition"
+          },
+          {
+            "name": "url_original",
+            "type": "string",
+            "description": "Original URL of the license definition"
+          },
+          {
+            "name": "url_equiv",
+            "type": "string",
+            "description": "URL of the interpretation authority, of 'it is equivalent' assertion"
+          }
+        ]
+      }
+    },
+    {
+      "name": "family.csv",
+      "path": "data/family.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "family",
+            "type": "string",
+            "description": "(primary key) label of the canonic license. The '*' is added to indicate any other clause valid as Acceptable Conditions by the OpenDefinition"
+          },
+          {
+            "name": "degreeV1",
+            "type": "integer",
+            "description": "version 1 of a 'openess dregree' rank in the family set"
+          },
+          {
+            "name": "degreeV2",
+            "type": "integer",
+            "description": "version 2 of a 'openess dregree' rank in the family set"
+          }
         ]
       }
     }

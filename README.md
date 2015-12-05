@@ -36,4 +36,3 @@ There are 3 main (curatory) sources of information for populate the datasets of 
 
 Even with these sources, there are some data and metadata interpretations that not exist, so, the [Data Packaged Core Datasets](https://github.com/datasets) community assumes this curatory rule.
 
-
