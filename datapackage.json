@@ -102,19 +102,23 @@
           },
           {
             "name": "maintainer",
-            "type": "number"
+            "type": "string",
+            "description": "Name of the mantainer (people or organization)"
           },
           {
             "name": "title",
-            "type": "string"
+            "type": "string",
+            "description": "Title (complete name) of the license"
           },
           {
             "name": "url",
-            "type": "string"
+            "type": "string",
+            "description": "Reliable URL of the license definition"
           },
           {
             "name": "url_original",
-            "type": "string"
+            "type": "string",
+            "description": "Original URL of the license definition"
           }          
         ]
       }
