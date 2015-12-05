@@ -1,0 +1,9 @@
+id_label,id_version,name,family,equiv,maintainer,title,url,url_original,url_equiv
+afl,3.0,AFL-3.0,?,??,,Academic Free License (AFL-3.0),,,http://opensource.org/licenses/category
+all,,ALL,?,??,,Attribution Assurance Licenses (AAL),,,http://opensource.org/licenses/category
+efl,2.0,EFL-2.0,?,??,,Eiffel Forum License V2.0 (EFL-2.0),,,http://opensource.org/licenses/category
+fair,,Fair,?,??,,Fair License (Fair),,,http://opensource.org/licenses/category
+hpnd,,HPND,?,??,,Historical Permission Notice and Disclaimer (HPND),,,http://opensource.org/licenses/category
+lpl,1.02,LPL-1.02,?,??,,Lucent Public License Version 1.02 (LPL-1.02),,,http://opensource.org/licenses/category
+ncsa,,NCSA,?,??,,University of Illinois/NCSA Open Source License (NCSA),,,http://opensource.org/licenses/category
+xnet,,Xnet,?,??,,X.Net License (Xnet),,,http://opensource.org/licenses/category
