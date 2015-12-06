@@ -1,6 +1,6 @@
 # dataset_licenses
 
-List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, not only the open ones.
+List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, to indexing any kind of cultural work (documents, softwares, etc.).
 
 See [dataset proposal #118 for CSV of licenses](https://github.com/datasets/registry/issues/118).
 
@@ -35,5 +35,10 @@ There are 3 main (curated) sources of information for populate the datasets of t
 * Wikipedia's license articles (ex. [MIT](https://en.wikipedia.org/wiki/MIT_License) or [GNU-affero](https://en.wikipedia.org/wiki/Affero_General_Public_License)) and its [infobox metadadata](https://en.wikipedia.org/wiki/Template:Infobox_software_license).
 
 Even with these sources, there are some data and metadata interpretations that not exist, so, the [Data Packaged Core Datasets](https://github.com/datasets) community assumes this curatory rule.
-The "[inferred license](./data/inferred.csv)" of legislative (lex) documents is a demand motivated by the [GODI/legislation datasets](http://index.okfn.org/dataset/legislation/), and an in-progress work.
+
+### Implied licenses
+
+The [implied license](https://en.wikipedia.org/wiki/Implied_license) is a general problem of license-document indexation, because we must to *point the documents license ID*, but have no idea about (exactly) what is the license. The "licence inference process" in general is time consuming, and oficial analysis have a cost... So we can retain a report with this oficial interpretation (or a community endorsement of the report) of document's context and its implied license. For relevant and big document repositories, like law (ex. [N-Lex](http://eur-lex.europa.eu/n-lex/) or [UK-legislation](http://www.legislation.gov.uk/browse)), one report is valid to full repository.
+
+The [implied.csv](./data/implied.csv) is a list of legislative repository's licenses, a demand motivated by the [GODI/legislation datasets](http://index.okfn.org/dataset/legislation/), and an in-progress work.
 
