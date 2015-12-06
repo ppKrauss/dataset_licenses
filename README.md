@@ -26,7 +26,7 @@ The [family.csv](./data/family.csv) is a workaround, to reports or interfaces, t
 
 ## Curated sources
 
-There are 3 main (curatory) sources of information for populate the datasets of this project,
+There are 3 main (curated) sources of information for populate the datasets of this project,
 
 * JSON materal at [okfn/licenses](https://github.com/okfn/licenses). Is the main source.
 
@@ -35,4 +35,5 @@ There are 3 main (curatory) sources of information for populate the datasets of 
 * Wikipedia's license articles (ex. [MIT](https://en.wikipedia.org/wiki/MIT_License) or [GNU-affero](https://en.wikipedia.org/wiki/Affero_General_Public_License)) and its [infobox metadadata](https://en.wikipedia.org/wiki/Template:Infobox_software_license).
 
 Even with these sources, there are some data and metadata interpretations that not exist, so, the [Data Packaged Core Datasets](https://github.com/datasets) community assumes this curatory rule.
+The "[inferred license](./data/inferred.csv)" of legislative (lex) documents is a demand motivated by the [GODI/legislation datasets](http://index.okfn.org/dataset/legislation/), and an in-progress work.
 
