@@ -1,8 +1,8 @@
 # dataset_licenses
-proposal for CSV of licenses, see https://github.com/datasets/registry/issues/118
 
-List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, not only the open ones.  
-Of course, the
+List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, not only the open ones.
+
+See [dataset proposal #118 for CSV of licenses](https://github.com/datasets/registry/issues/118).
 
 ## Data
 Files described by [datapackage.json](./datapackage.json).
