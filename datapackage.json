@@ -56,6 +56,11 @@
             "description": "the use-status of the license, as 'active', 'superseded' or 'retired'"
           },
           {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of publishing or oficial declation of the licence"
+          },
+          {
             "name": "is_by",
             "type": "boolean",
             "description": "is like CC-BY, have an attribution clause"
@@ -66,7 +71,7 @@
             "description": "is like CC-SA, have an share-alike clause"
           },
           {
-            "name": "is_nreus",
+            "name": "is_noreuse",
             "type": "boolean",
             "description": "is non-reusable, as illustred by opensource.org category"
           },
@@ -153,6 +158,16 @@
             "name": "name_of_equiv",
             "type": "string",
             "description": "(foreign key) the name of the equivalent-license in the licences.csv file"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "the use-status of the license, as 'active', 'superseded' or 'retired'"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of publishing or oficial declation of the licence"
           },
           {
             "name": "maintainer",
