@@ -1,5 +1,5 @@
 id_label,id_version,name,family,status,year,inferred_year,is_by,is_sa,is_noreuse,is_generic,domain_content,domain_data,domain_software,od_conformance,osd_conformance,maintainer,title,url,url_original
-inferred-lex-br,1.0,Inferred-lex-BR-1.0,cc0-*,restrict,,,,,1,,1,,,,,Brazil,"(inffering by legislation analysis, report BR)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-BR.md 
-inferred-lex-il,1.0,Inferred-lex-IL-1.0,cc-by,restrict,,,1,,1,,1,,,,,Israel,"(inffering by legislation analysis, report IL)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IL.md
-inferred-lex-is,1.0,Inferred-lex-IS-1.0,cc-by,restrict,,,1,,1,,1,,,,,Iceland,"(inffering by legislation analysis, report IS)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IS.md 
-inferred-lex-us,1.0,Inferred-lex-US-1.0,cc0,restrict,,,,,1,,1,,,,,United States of America,"(inffering by legislation analysis, report US)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-US.md
+inferred-lex-br,1.0,Inferred-lex-BR-1.0,cc0-*,restrict,,,,,1,,1,,,,,Brazil,"(inferring by legislation analysis, report BR)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-BR.md 
+inferred-lex-il,1.0,Inferred-lex-IL-1.0,cc-by,restrict,,,1,,1,,1,,,,,Israel,"(inferring by legislation analysis, report IL)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IL.md
+inferred-lex-is,1.0,Inferred-lex-IS-1.0,cc-by,restrict,,,1,,1,,1,,,,,Iceland,"(inferring by legislation analysis, report IS)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IS.md 
+inferred-lex-us,1.0,Inferred-lex-US-1.0,cc0,restrict,,,,,1,,1,,,,,United States of America,"(inferring by legislation analysis, report US)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-US.md
