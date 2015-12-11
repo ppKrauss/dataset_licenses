@@ -1,4 +1,4 @@
-# dataset_licenses
+# dataset licenses
 
 List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, to indexing any kind of cultural work (documents, softwares, etc.).
 

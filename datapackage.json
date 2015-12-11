@@ -32,23 +32,27 @@
         "fields": [
           {
             "name": "id_label",
+            "role": "master",
             "type": "string",
             "description": "lower case and cut-digits id"
           },
           {
             "name": "id_version",
+            "role": "master",
             "type": "string",
             "description": "version code or number of the license"
           },
           {
             "name": "name",
+            "role": "pk",
             "type": "string",
             "description": "(primary key) a convention for short-name, based on usual labels or short-titles"
           },
           {
             "name": "family",
+            "role": "fk(families.csv,family)",
             "type": "string",
-            "description": "(foreign key) the id_label of the most similar canonic license"
+            "description": "the id_label of the most similar canonic license"
           },
           {
             "name": "status",
@@ -129,33 +133,151 @@
       }
     },
     {
-      "name": "redundant.csv",
-      "path": "data/redundant.csv",
+      "name": "implieds.csv",
+      "path": "data/implieds.csv",
       "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
             "name": "id_label",
+            "role": "master",
             "type": "string",
             "description": "lower case and cut-digits id"
           },
           {
             "name": "id_version",
+            "role": "master",
             "type": "string",
             "description": "version code or number of the license"
           },
           {
             "name": "name",
+            "role": "pk",
             "type": "string",
             "description": "(primary key) a convention for short-name, based on usual labels or short-titles"
           },
           {
             "name": "family",
+            "role": "fk(families.csv,family)",
+            "type": "string",
+            "description": "the id_label of the most similar canonic license"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "the use-status of the license, as 'active', 'superseded' or 'retired'"
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Year of publishing or oficial declation of the licence"
+          },
+          {
+            "name": "inferred_year",
+            "type": "integer",
+            "description": "Year of the license-interpretation report"
+          },
+          {
+            "name": "is_by",
+            "type": "boolean",
+            "description": "is like CC-BY, have an attribution clause"
+          },
+          {
+            "name": "is_sa",
+            "type": "boolean",
+            "description": "is like CC-SA, have an share-alike clause"
+          },
+          {
+            "name": "is_noreuse",
+            "type": "boolean",
+            "description": "is non-reusable, as illustred by opensource.org category"
+          },
+          {
+            "name": "is_generic",
+            "type": "boolean",
+            "description": "is a generic license, applied to more tham one domain"
+          },
+          {
+            "name": "domain_content",
+            "type": "boolean",
+            "description": "Content License"
+          },
+          {
+            "name": "domain_data",
+            "type": "boolean",
+            "description": "Data License"
+          },
+          {
+            "name": "domain_software",
+            "type": "boolean",
+            "description": "Software License"
+          },
+          {
+            "name": "od_conformance",
+            "type": "string",
+            "description": "Conforming to the Open Definition"
+          },
+          {
+            "name": "osd_conformance",
+            "type": "string",
+            "description": "Conforming to Open Source Definition"
+          },
+          {
+            "name": "maintainer",
+            "type": "string",
+            "description": "Name of the mantainer (people or organization)"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Title (complete name) of the license"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Reliable URL of the license definition"
+          },
+          {
+            "name": "url_original",
+            "type": "string",
+            "description": "Original URL of the license definition"
+          }
+        ]
+      }
+    },
+    {
+      "name": "redundants.csv",
+      "path": "data/redundants.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_label",
+            "role": "master",
+            "type": "string",
+            "description": "lower case and cut-digits id"
+          },
+          {
+            "name": "id_version",
+            "role": "master",
+            "type": "string",
+            "description": "version code or number of the license"
+          },
+          {
+            "name": "name",
+            "role": "pk",
+            "type": "string",
+            "description": "a convention for short-name, based on usual labels or short-titles"
+          },
+          {
+            "name": "family",
+            "role": "fk(families.csv,family)",
             "type": "string",
             "description": "the id_label of the most similar canonic license"
           },
           {
             "name": "name_of_equiv",
+            "role": "fk(licenses.csv,name)",
             "type": "string",
             "description": "(foreign key) the name of the equivalent-license in the licences.csv file"
           },
@@ -198,25 +320,26 @@
       }
     },
     {
-      "name": "family.csv",
-      "path": "data/family.csv",
+      "name": "families.csv",
+      "path": "data/families.csv",
       "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
             "name": "family",
+            "role": "pk",
             "type": "string",
-            "description": "(primary key) label of the canonic license. The '*' is added to indicate any other clause valid as Acceptable Conditions by the OpenDefinition"
+            "description": "Label of the canonic license. The '*' is added to indicate any other clause valid as Acceptable Conditions by the OpenDefinition"
           },
           {
             "name": "degreeV1",
             "type": "integer",
-            "description": "version 1 of a 'openess dregree' rank in the family set"
+            "description": "Version 1 of a 'openess dregree' rank in the family set"
           },
           {
             "name": "degreeV2",
             "type": "integer",
-            "description": "version 2 of a 'openess dregree' rank in the family set"
+            "description": "Version 2 of a 'openess dregree' rank in the family set"
           }
         ]
       }

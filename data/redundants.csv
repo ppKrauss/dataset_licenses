@@ -1,0 +1,11 @@
+id_label,id_version,name,family,name_of_equiv,status,year,maintainer,title,url,url_original,url_equiv
+afl,3.0,AFL-3.0,,,accepted-equiv,,,Academic Free License (AFL-3.0),,,http://opensource.org/licenses/category
+all,,ALL,,,accepted-equiv,,,Attribution Assurance Licenses (AAL),,,http://opensource.org/licenses/category
+eff-oal,1.0,EFF-OAL-1.0,cc-by-sa,CC-BY-SA-2.0,deprec-infavour-equiv,,Electronic Frontier Foundation,EFF Open Audio License,,http://www.eff.org/IP/Open_licenses/eff_oal_version1.php,http://opendefinition.org/licenses/
+efl,2.0,EFL-2.0,,,accepted-equiv,,,Eiffel Forum License V2.0 (EFL-2.0),,,http://opensource.org/licenses/category
+fair,,Fair,,,accepted-equiv,,,Fair License (Fair),,,http://opensource.org/licenses/category
+hpnd,,HPND,,,accepted-equiv,,,Historical Permission Notice and Disclaimer (HPND),,,http://opensource.org/licenses/category
+lpl,1.02,LPL-1.02,,,accepted-equiv,,,Lucent Public License Version 1.02 (LPL-1.02),,,http://opensource.org/licenses/category
+ncsa,,NCSA,,,accepted-equiv,,,University of Illinois/NCSA Open Source License (NCSA),,,http://opensource.org/licenses/category
+talis,,Talis,cc-by-sa,ODbL-1.0,deprec-infavour-equiv,,,Talis Community License (TCL),http://www.opendefinition.org/licenses/tcl ,,http://opendefinition.org/licenses/
+xnet,,Xnet,,,accepted-equiv,,,X.Net License (Xnet),,,http://opensource.org/licenses/category

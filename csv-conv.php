@@ -6,7 +6,7 @@
  */
 
 ///CONFIGS:
-	$dir= '../licenses/licenses'; // obtained from clone https://github.com/okfn/licenses
+    $dir= '../licenses0/licenses'; // obtained from clone https://github.com/okfn/licenses mv licences licenses0
     $fileOut = 'php://stdout';
     $attlist = 'id_label,id_version,id,family,canonic,status,is_generic,domain_content,domain_data,domain_software,od_conformance,osd_conformance,maintainer,title,url';
     $check_mode = 0;  // 1 to check header composition
