@@ -1,10 +1,4 @@
 id_label,id_version,name,family,status,year,is_by,is_sa,is_noreuse,is_generic,domain_content,domain_data,domain_software,od_conformance,osd_conformance,maintainer,title,url,url_original
-ogl-uk,1.0,OGL-UK-1.0,cc-by,superseded,2003,1,0,1,,1,1,1,not reviewed,not reviewed,UK Government,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence,
-cc-by,3.0,CC-BY-3.0,cc-by,active,2009,1,0,,,1,1,,approved,not reviewed,Creative Commons,Creative Commons Attribution 3.0,https://creativecommons.org/licenses/by/3.0/,
-cc0,1.0,CC0-1.0,cc0,active,2010,,,,,1,1,1,approved,not reviewed,Creative Commons,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,
-ogl-uk,2.0,OGL-UK-2.0,cc-by,active,2013,1,0,1,,1,1,1,approved,not reviewed,UK Government,Open Government Licence 2.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/,
-ogl-canada,2.0,OGL-Canada-2.0,,active,2014,1,0,1,,1,1,,approved,not reviewed,Government of Canada,Open Government License 2.0 (Canada),http://data.gc.ca/eng/open-government-licence-canada,
-ogl-uk,3.0,OGL-UK-3.0,cc-by,active,2015,1,0,1,,1,1,1,approved,not reviewed,UK Government,Open Government Licence 3.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/,
 aal,,AAL,,active,,,,,,,,1,not reviewed,approved,,Attribution Assurance Licenses,http://www.opensource.org/licenses/AAL,
 afl,3.0,AFL-3.0,,active,,,,,,1,,1,not reviewed,approved,Lawrence Rosen,Academic Free License 3.0,http://www.opensource.org/licenses/AFL-3.0,
 against-drm,,Against-DRM,cc-by-sa-*,active,,1,1,,,1,,,approved,not reviewed,,Against DRM,http://www.opendefinition.org/licenses/against-drm,http://www.freecreations.org/Against_DRM2.html
@@ -20,6 +14,7 @@ bsd-clause,3,BSD-3-Clause,,active,,,,,,,,1,not reviewed,approved,FreeBSD Foundat
 bsl,1.0,BSL-1.0,,active,,,,,,,,1,not reviewed,approved,,Boost Software License 1.0,http://www.opensource.org/licenses/BSL-1.0,
 catosl,1.1,CATOSL-1.1,,active,,,,,,,,1,not reviewed,approved,,Computer Associates Trusted Open Source License 1.1 (CATOSL-1.1),http://www.opensource.org/licenses/CATOSL-1.1,
 cc-by,2.0,CC-BY-2.0,cc-by,active,,1,0,,,1,1,,approved,not reviewed,Creative Commons,Creative Commons Attribution 2.0,https://creativecommons.org/licenses/by/2.0/,
+cc-by,3.0,CC-BY-3.0,cc-by,active,2009,1,0,,,1,1,,approved,not reviewed,Creative Commons,Creative Commons Attribution 3.0,https://creativecommons.org/licenses/by/3.0/,
 cc-by,4.0,CC-BY-4.0,cc-by,active,,1,0,,,1,1,,approved,not reviewed,Creative Commons,Creative Commons Attribution 4.0,https://creativecommons.org/licenses/by/4.0/ ,
 cc-by-nc,4.0,CC-BY-NC-4.0,cc-by-nc,active,,1,0,,,1,1,,rejected,not reviewed,Creative Commons,Creative Commons Attribution-NonCommercial 4.0,https://creativecommons.org/licenses/by-nc/4.0/,
 cc-by-nc-nd,4.0,CC-BY-NC-ND-4.0,cc-by-nc-nd,active,,1,0,,,1,,,rejected,,Creative Commons,Attribution + Noncommercial + NoDerivatives,https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode,
@@ -27,6 +22,7 @@ cc-by-nc-sa,4.0,CC-BY-NC-SA-4.0,cc-by-nc-sa,active,,1,0,,,1,,,rejected,,Creative
 cc-by-nd,4.0,CC-BY-ND-4.0,cc-by-nd,active,,1,0,,,1,,,rejected,,Creative Commons,Attribution + NoDerivatives,https://creativecommons.org/licenses/by-nd/4.0/legalcode,
 cc-by-sa,2.0,CC-BY-SA-2.0,cc-by-sa,active,,1,1,,,1,1,,approved,not reviewed,Creative Commons,Creative Commons Attribution Share-Alike 2.0,https://creativecommons.org/licenses/by-sa/2.0/,
 cc-by-sa,4.0,CC-BY-SA-4.0,cc-by-sa,active,,1,1,,,1,1,,approved,not reviewed,Creative Commons,Creative Commons Attribution Share-Alike 4.0,https://creativecommons.org/licenses/by-sa/4.0/,
+cc0,1.0,CC0-1.0,cc0,active,2010,,,,,1,1,1,approved,not reviewed,Creative Commons,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,
 cddl,1.0,CDDL-1.0,,active,,,,,,,,1,not reviewed,approved,,Common Development and Distribution License 1.0,http://www.opensource.org/licenses/CDDL-1.0,
 cecill,2.1,CECILL-2.1,,active,,,,,,,,1,not reviewed,approved,,CeCILL License 2.1,http://www.opensource.org/licenses/CECILL-2.1,
 cnri-python,,CNRI-Python,,active,,,,,,,,1,not reviewed,approved,,CNRI Python License,http://www.opensource.org/licenses/CNRI-Python,
@@ -85,6 +81,10 @@ odbl,1.0,ODbL-1.0,cc-by-sa,active,,1,1,,,,1,,approved,not reviewed,Open Data Com
 odc-by,1.0,ODC-BY-1.0,cc-by,active,,1,0,,,,1,,approved,not reviewed,Open Data Commons (OKFN),Open Data Commons Attribution License 1.0,http://www.opendefinition.org/licenses/odc-by,
 odc-pddl,1.0,ODC-PDDL-1.0,cc0,active,,,,,,,1,,approved,not reviewed,Open Data Commons (OKFN),Open Data Commons Public Domain Dedication and Licence 1.0,http://www.opendefinition.org/licenses/odc-pddl,http://opendatacommons.org/licenses/pddl/1.0/
 ofl,1.1,OFL-1.1,,active,,,,,,,,1,not reviewed,approved,,Open Font License 1.1,http://www.opensource.org/licenses/OFL-1.1,
+ogl-canada,2.0,OGL-Canada-2.0,,active,2014,1,0,1,,1,1,,approved,not reviewed,Government of Canada,Open Government License 2.0 (Canada),http://data.gc.ca/eng/open-government-licence-canada,
+ogl-uk,1.0,OGL-UK-1.0,cc-by,superseded,2003,1,0,1,,1,1,1,not reviewed,not reviewed,UK Government,Open Government Licence 1.0 (United Kingdom),http://reference.data.gov.uk/id/open-government-licence,
+ogl-uk,2.0,OGL-UK-2.0,cc-by,active,2013,1,0,1,,1,1,1,approved,not reviewed,UK Government,Open Government Licence 2.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/,
+ogl-uk,3.0,OGL-UK-3.0,cc-by,active,2015,1,0,1,,1,1,1,approved,not reviewed,UK Government,Open Government Licence 3.0 (United Kingdom),https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/,
 ogtsl,,OGTSL,,active,,,,,,,,1,not reviewed,approved,,Open Group Test Suite License,http://www.opensource.org/licenses/OGTSL,
 opl,1.0,OPL-1.0,cc-by,?,,1,0,,,1,,,,,,Open Publication License,http://opencontent.org/openpub/,
 osl,3.0,OSL-3.0,,active,,,,,,1,,1,not reviewed,approved,Lawrence Rosen,Open Software License 3.0,http://www.opensource.org/licenses/OSL-3.0,
