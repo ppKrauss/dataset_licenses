@@ -1,19 +1,20 @@
 ---
 title: Implied licenses of legal documents in Brasil (BR)
-version: 1.2
+version: 0.3
 version_status: REVISION
 endorsed_n: 1
 endorsed_status: waiting
 layout: page
 ---
 
-Checklist, from [Global Open Data Index, Legislation](http://index.okfn.org/dataset/legislation/):
 
- * Legal system: *Civil law*
+Checklist, consistent with [Global Open Data Index, Legislation](http://index.okfn.org/dataset/legislation/):
 
- * Berne Convention: *yes*
+ * [Legal system](https://www.wikidata.org/wiki/Q2478386): *Civil law*
 
- * Official license: *no*
+ * [Berne Convention](https://www.wikidata.org/wiki/Q217398): *yes* (Paris 1975-12-11)
+
+ * Official (explicit) [license](https://www.wikidata.org/wiki/Q7257715) text: *no*
 
  * Official law-documents repository: http://www.lexml.gov.br
 
@@ -91,7 +92,7 @@ The  *implied licence* of Brazilian law-documents is equivalent to [CC0](https:/
 
 ### Endorsed the conclusion
 The persons bellow endorsed the conclusions of this report (`endorsed_n`),
-* [ppKrauss](https://github.com/ppKrauss) v1.2, v1.1, v1.0.
+* [ppKrauss](https://github.com/ppKrauss) v0.3, v0.2, v0.1.
 
 Persons that endorsed indirectly, or endorsed some version or some part, as theirs manifestation was used during elaboration of this report,
-* [bluechi](https://github.com/bluechi) v1.0 with [[1]](https://github.com/okfn/opendefinition/issues/114#issuecomment-122265499).
+* [bluechi](https://github.com/bluechi) v0.1 with [[1]](https://github.com/okfn/opendefinition/issues/114#issuecomment-122265499).
