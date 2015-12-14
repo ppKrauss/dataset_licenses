@@ -7,15 +7,13 @@ endorsed_status: waiting
 layout: page
 ---
 
-Checklist, from [Global Open Data Index, Legislation](http://index.okfn.org/dataset/legislation/):
+Checklist, consistent with [Global Open Data Index, Legislation](http://index.okfn.org/dataset/legislation/):
 
- * Consistent with [lawDocsRepos](https://github.com/ppKrauss/openCitation/blob/master/data/lawDocsRepos.csv):
+ * [Legal system](https://www.wikidata.org/wiki/Q2478386): *mix*
 
- * Legal system: *mix*
+ * [Berne Convention](https://www.wikidata.org/wiki/Q217398): *yes*
 
- * Berne Convention: *yes*
-
- * Official (explicit) license: *no*
+ * Official (explicit) [license](https://www.wikidata.org/wiki/Q7257715) text: *no*
 
  * Official law-documents repository:	http://www.knesset.gov.il/laws
 
@@ -36,7 +34,7 @@ Quotations and interpretations of the evidences:
 
 ...
 
-## Other quotations and interpretations
+### Other quotations and interpretations
 
 ...
 
