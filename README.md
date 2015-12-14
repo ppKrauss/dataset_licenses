@@ -28,7 +28,7 @@ The [family.csv](./data/family.csv) is a workaround, to reports or interfaces, t
 
 There are 3 main (curated) sources of information for populate the datasets of this project,
 
-* JSON materal at [okfn/licenses](https://github.com/okfn/licenses). Is the main source.
+* JSON materal at [okfn/licenses](https://github.com/okfn/licenses) and  [licenses.opendefinition.org](http://licenses.opendefinition.org/), are the main source.
 
 * [Opensource.org "quick summaries"](http://opensource.org/licenses), at [tldrlegal.com](https://tldrlegal.com/licenses/browse). Example [MIT](https://www.tldrlegal.com/l/mit) or [GNU-affero](https://www.tldrlegal.com/l/agpl3).
 
@@ -41,4 +41,3 @@ Even with these sources, there are some data and metadata interpretations that n
 The [implied license](https://en.wikipedia.org/wiki/Implied_license) is a general problem of license-document indexation, because we must to *point the documents license ID*, but have no idea about (exactly) what is the license. The "licence inference process" in general is time consuming, and oficial analysis have a cost... So we can retain a report with this oficial interpretation (or a community endorsement of the report) of document's context and its implied license. For relevant and big document repositories, like law (ex. [N-Lex](http://eur-lex.europa.eu/n-lex/) or [UK-legislation](http://www.legislation.gov.uk/browse)), one report is valid to full repository.
 
 The [implied.csv](./data/implied.csv) is a list of legislative repository's licenses, a demand motivated by the [GODI/legislation datasets](http://index.okfn.org/dataset/legislation/), and an in-progress work.
-
