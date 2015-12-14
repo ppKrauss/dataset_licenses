@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 id_label,id_version,name,family,status,year,report_year,is_by,is_sa,is_noreuse,is_generic,domain_content,domain_data,domain_software,od_conformance,osd_conformance,maintainer,title,url_report,url_ref
 implied-berne,1886,Implied Berne-1886,copyright0,superseded,1886,2015,,,,1,,,,rejected,rejected,WIPO,"Berne Convention, 1886 - Convention Concerning the Creation of An International Union for the Protection of Literary and Artistic Works",,http://www.wipo.int/
 implied-berne,1948,Implied Berne-1948,copyright0,superseded,1948,2015,,,,1,,,,rejected,rejected,WIPO,Berne Convention for the Protection of Literary and Artistic Works (Brussels Text 1948),,http://www.wipo.int/
@@ -7,10 +6,3 @@ implied-lex-br,1.0,Implied Lex-BR-1.0,cc0-*,restrict,1998,2015,,,1,,1,,,,,Brazil
 implied-lex-il,1.0,Implied Lex-IL-1.0,cc-by,restrict,,2015,1,,1,,1,,,,,Israel,Implied licenses of legal documents of Israel,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IL.md,
 implied-lex-is,1.0,Implied Lex-IS-1.0,cc-by,restrict,,2015,1,,1,,1,,,,,Iceland,Implied licenses of legal documents of Iceland,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IS.md ,
 implied-lex-us,1.0,Implied Lex-US-1.0,cc0,restrict,,2015,,,1,,1,,,,,United States,Implied licenses of legal documents of United States,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-US.md,
-=======
-id_label,id_version,name,family,status,year,inferred_year,is_by,is_sa,is_noreuse,is_generic,domain_content,domain_data,domain_software,od_conformance,osd_conformance,maintainer,title,url,url_original
-inferred-lex-br,1.0,Inferred-lex-BR-1.0,cc0-*,restrict,,,,,1,,1,,,,,Brazil,"(inferring by legislation analysis, report BR)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-BR.md 
-inferred-lex-il,1.0,Inferred-lex-IL-1.0,cc-by,restrict,,,1,,1,,1,,,,,Israel,"(inferring by legislation analysis, report IL)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IL.md
-inferred-lex-is,1.0,Inferred-lex-IS-1.0,cc-by,restrict,,,1,,1,,1,,,,,Iceland,"(inferring by legislation analysis, report IS)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-IS.md 
-inferred-lex-us,1.0,Inferred-lex-US-1.0,cc0,restrict,,,,,1,,1,,,,,United States of America,"(inferring by legislation analysis, report US)",,https://github.com/ppKrauss/openCoherence/blob/master/reports/inferredLicense-US.md
->>>>>>> d755e9de92ef7b888cc3600421dc40e605ba631b
