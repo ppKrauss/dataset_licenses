@@ -1,6 +1,6 @@
 # dataset licenses
 
-List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, to indexing any kind of cultural work (documents, softwares, etc.).
+List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) licenses, open and not-open, to indexing any kind of cultural work (documents, softwares, etc.).
 
 See [dataset proposal #118 for CSV of licenses](https://github.com/datasets/registry/issues/118).
 
