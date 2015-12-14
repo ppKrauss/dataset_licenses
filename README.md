@@ -9,9 +9,9 @@ Files described by [datapackage.json](./datapackage.json).
 
 The [licenses.csv](./data/licenses.csv) have all relevant active licenses, and licences highlighted by *status* "superseded" or "retired".
 
-Redundant licences are listed at [redundant.csv](./data/redundant.csv), relating with its equivalent (synonymous) licences, as illustred by the "Licenses that are redundant with more popular licenses" at [opensource.org/licenses/category](http://opensource.org/licenses/category). 
+Redundant licences are listed at [redundants.csv](./data/redundants.csv), relating with its equivalent (synonymous) licences, as illustred by the "Licenses that are redundant with more popular licenses" at [opensource.org/licenses/category](http://opensource.org/licenses/category). 
 
-The [family.csv](./data/family.csv) is a workaround, to reports or interfaces, that need some "sort by openness degreee" criteria. 
+The [families.csv](./data/families.csv) is a workaround, to reports or interfaces, that need some "sort by openness degreee" criteria. 
 
 
 ## Preparation
