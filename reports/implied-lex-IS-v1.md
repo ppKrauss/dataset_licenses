@@ -48,7 +48,7 @@ Comments from [@tryggvib](https://github.com/okfn/opendatacensus/issues/555#issu
 
 These are the general terms in Iceland for all public sector information that has been made available. Of these I have discussed the explicit mention of copyright law in the first item of the list which in my opinion can cause confusion, but lawyers I've discussed this with say that these terms apply to both the public entity as well as the user and that the first item is supposedly aimed at the public entities who should not violate copyright when they make their own information available. I don't really see how they can do that which is why I'm more inclined to interpret this as being aimed at the general public.
 
-## Complementar references
+### Complementar references
 Interpretations here are in agree with similar interpretation reports,
 
   1. http://www.nyulawglobal.org/globalex/Iceland.html
