@@ -27,8 +27,14 @@ The evidences listed below are about intellectual property, reuse or copy restri
 Label  | Subject | Name and oficial URL | Effective date
 ---    | ---     | ---                  | ---
 *Berne1948* | Berne text | [Berne Convention for the Protection of Literary and Artistic Works (Brussels Act, 1948)](http://global.oup.com/booksites/content/9780198259466/15550020) | 1948
-*Law2012*  | Constitution | [Freedom of Information Law, No. 140/2012](http://www.althingi.is/lagas/144b/2012140.html) | 2012-12-28
+*??* | copyright law | [Copyright Act No. 73 of May 29, 1972, as last amended by Act No. 97 of 30 June 2006](http://www.wipo.int/wipolex/en/text.jsp?file_id=190312) | ??
+*Law2012*  | copyright law | [Freedom of Information Law, No. 140/2012](http://www.althingi.is/lagas/144b/2012140.html) | 2012-12-28
 ...    | ...    | ...                | ...
+
+
+According to the Copyright Act No. 73, government works, as acts, regulations, administrative provisions, court rulings and similar official documents, as well as official translation of such documents, are not copyrighted: *Article 9*.<sup>(2)</sup> 
+
+In addition, unless prohibited by court order, it is permissible to print, make an audio recording, or otherwise copy and present proceedings of public meetings of official representatives and documents publicly submitted during such meetings which concern such representatives, and "debates on questions concerning the public good which take place at gatherings to which the public has access or are broadcast": *Article 22*.
 
 The Icelandic "Information law" of 2012 has an article (article 30) on reuse of public sector information, here it is translated by me:
 
@@ -42,10 +48,16 @@ Comments from [@tryggvib](https://github.com/okfn/opendatacensus/issues/555#issu
 
 These are the general terms in Iceland for all public sector information that has been made available. Of these I have discussed the explicit mention of copyright law in the first item of the list which in my opinion can cause confusion, but lawyers I've discussed this with say that these terms apply to both the public entity as well as the user and that the first item is supposedly aimed at the public entities who should not violate copyright when they make their own information available. I don't really see how they can do that which is why I'm more inclined to interpret this as being aimed at the general public.
 
+## Complementar references
+Interpretations here are in agree with similar interpretation reports,
+
+  1. http://www.nyulawglobal.org/globalex/Iceland.html
+  2. https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory#Iceland
+  3. https://commons.wikimedia.org/wiki/Commons:International_copyright_quick_reference_guide
 
 ## Conclusion
 
-The  *implied licence* of Iceland law-documents is equivalent to [**CC-BY**](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
+The  *implied licence* of Iceland law-documents is equivalent to [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/legalcode), and for some dependences (ex. cited material) is possible to use [**CC-BY**](https://creativecommons.org/licenses/by/3.0/br/).
 
 ### Endorsed the conclusion
 The persons bellow endorsed the conclusions of this report (`endorsed_n`),

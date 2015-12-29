@@ -86,9 +86,16 @@ In all reproductions of brazilian laws, there are a well-known red phrase,
 
 So, we can infer  that it is an license clause, an exigence for  the reproductions of law texts. (PLEASE we need source about this theme) 
 
+## Complementar references
+Interpretations here are in agree with similar interpretation reports,
+
+  1. https://commons.wikimedia.org/wiki/Template:PD-BrazilGov
+  2. https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory#Brazil
+  3. https://commons.wikimedia.org/wiki/Commons:International_copyright_quick_reference_guide
+
 ## Conclusion
 
-The  *implied licence* of Brazilian law-documents is equivalent to [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode),  with an optional special clause, like an attribution clause, enforcing the use of the red phrase in the distributed copies. The licence family is [`cc0-*`](https://github.com/ppKrauss/licenses/blob/master/data/families.csv).
+The  *implied licence* of Brazilian law-documents is equivalent to [CC0](https://creativecommons.org/publicdomain/zero/1.0/legalcode),  with an optional special clause (similar to an attribution clause) enforcing the use of the red phrase when distributing copies. The licence family is [`cc0-*`](https://github.com/ppKrauss/licenses/blob/master/data/families.csv).
 
 ### Endorsed the conclusion
 The persons bellow endorsed the conclusions of this report (`endorsed_n`),
