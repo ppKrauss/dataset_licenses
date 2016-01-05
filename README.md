@@ -33,8 +33,18 @@ As solution, the report describing a implicit license need not be exact: some ag
 
 The [`implieds.csv`](./data/implieds.csv) is a list of legislative repository's licenses, a demand [motivated by](https://discuss.okfn.org/t/reflections-on-this-years-index/1338/13?u=ppkrauss) the [GODI/legislation datasets](http://index.okfn.org/dataset/legislation/), and an in-progress work. Each *implied license* need a report, like [implied-lex-BR-v1](https://github.com/ppKrauss/licenses/blob/master/reports/implied-lex-BR-v1.md) (the license used in ~790000 brazilian legistaltive documents) or  [implied-berne-v1971](https://github.com/ppKrauss/licenses/blob/master/reports/implied-berne-v1971.md) (the most used license in the world!).
 
-The main reference work to these interpretations is the [commons.wikimedia.org/Copyright rules by territory](https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory). There are also, in the form of  [Public Domain Mark](https://wiki.creativecommons.org/wiki/PDM_FAQ) templates, some concrete licenses as [PD-Albania-exempt](https://commons.wikimedia.org/wiki/Template:PD-Albania-exempt), [PD-BrazilGov](https://commons.wikimedia.org/wiki/Template:PD-BrazilGov), [PD-GermanGov](https://commons.wikimedia.org/wiki/Template:PD-GermanGov)  etc.
+The main reference work to these interpretations is the [commons.wikimedia.org/Copyright rules by territory](https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory). There are also, in the form of  [Public Domain Mark](https://wiki.creativecommons.org/wiki/PDM_FAQ) templates, some concrete licenses as [PD-Albania-exempt](https://commons.wikimedia.org/wiki/Template:PD-Albania-exempt), [PD-BrazilGov](https://commons.wikimedia.org/wiki/Template:PD-BrazilGov), [PD-GermanGov](https://commons.wikimedia.org/wiki/Template:PD-GermanGov)  etc. 
+The Wikimedia's "rules by territory" reduce but not eliminates the need of reports, that resembles [jurisdiction ports](https://en.wikipedia.org/wiki/Creative_Commons_jurisdiction_ports), when necessary to describe specific details.
 
+
+### Aggregation and families
+
+IMPORTANTE: os atributos de reuso e domínio {is_noreuse,is_generic,domain_content,domain_data,domain_software} não serão utilizados na caracterização ou distinção entre famílias. Do ponto de vista dos direitos e obrigações do usuário final do produto licenseado, esses atributos não causam impacto. O reuso estabelece uma liberdade de cópia do documento-licença em si, que não é escopo da anãlise (o documento licenseado é o escopo). O domínio, ou seja, o tipo de produto ou aplicação do produto, é também indiferente às cláusulas relativas a direitos e obrigações.
+
+As propriedades das licenças foram inspiradas nas "3.2 License Properties" de http://www.w3.org/Submission/ccREL/ 
+(original em https://wiki.creativecommons.org/images/d/d6/Ccrel-1.0.pdf ) , que são propriedades das cláusulas contratuais relevantes da licença, fixando direitos e obrigações do licensente.
+
+Benchmarking the popularidade de uma licença (ou versão) é estabelecido por média em mais de uma ferramenta de contagem. A busca no google por exemplo esbarra em contextualização e uso da string de busca sem ambiguidade. Para eventuais médias e comparações de popularidade, a referência é a "CC-BY-3.0", aparentemente a mais popular e reconhecida sem maiores ambiguidades.
 
 ## Preparation
 

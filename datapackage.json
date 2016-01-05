@@ -55,6 +55,11 @@
             "description": "the id_label of the most similar canonic license"
           },
           {
+            "name": "is_ref",
+            "type": "integer",
+            "description": "indicates that the item is a reference. 0=no; 1=maintainer reference; 2=canonical reference of its family."
+          },
+          {
             "name": "status",
             "type": "string",
             "description": "the use-status of the license, as 'active', 'superseded' or 'retired'"
@@ -128,6 +133,11 @@
             "name": "url_original",
             "type": "string",
             "description": "Original URL of the license definition"
+          },
+          {
+            "name": "NOTES",
+            "type": "string",
+            "description": "Any comment for control."
           }
         ]
       }
@@ -273,7 +283,7 @@
             "name": "family",
             "role": "fk(families.csv,family)",
             "type": "string",
-            "description": "the id_label of the most similar canonic license"
+            "description": "the label of the most similar canonic license"
           },
           {
             "name": "name_of_equiv",
