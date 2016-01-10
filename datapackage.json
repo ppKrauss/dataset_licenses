@@ -80,6 +80,16 @@
             "description": "is like CC-SA, have an share-alike clause"
           },
           {
+            "name": "is_salink",
+            "type": "boolean",
+            "description": "is like GPL in a kind of linking restriction"
+          },
+          {
+            "name": "is_nd",
+            "type": "boolean",
+            "description": "is like CC-BY-ND, non-derivatives restriction"
+          },
+          {
             "name": "is_noreuse",
             "type": "boolean",
             "description": "is non-reusable, as illustred by opensource.org category"
