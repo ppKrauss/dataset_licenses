@@ -15,13 +15,17 @@ The [families.csv](./data/families.csv) is a complement of the family column in 
 
 ## Curated sources
 
-There are 3 main (curated) sources of information for populate the datasets of this project,
+There are 2 main (curated) sources of information for populate the datasets of this project,
 
-* JSON materal at [okfn/licenses](https://github.com/okfn/licenses) and  [licenses.opendefinition.org](http://licenses.opendefinition.org/), are the main source.
+* [okfn/licenses](https://github.com/okfn/licenses) ([CSV file](https://github.com/okfn/licenses/blob/master/licenses.csv)) and   [licenses.opendefinition.org](http://licenses.opendefinition.org/), the main source.
+
+* Wikipedia's [comparative license lists](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses), [list of free content licenses](https://en.wikipedia.org/wiki/List_of_free_content_licenses) and  the license articles (ex. [MIT](https://en.wikipedia.org/wiki/MIT_License) or [GNU-affero](https://en.wikipedia.org/wiki/Affero_General_Public_License)), each with its [infobox metadadata](https://en.wikipedia.org/wiki/Template:Infobox_software_license).
+
+And other primary or secondary sources
+
+* [GNU's Licenses and Comments about Them](http://www.gnu.org/licenses/license-list.en.html), focused on software.
 
 * [Opensource.org "quick summaries"](http://opensource.org/licenses), at [tldrlegal.com](https://tldrlegal.com/licenses/browse). Example [MIT](https://www.tldrlegal.com/l/mit) or [GNU-affero](https://www.tldrlegal.com/l/agpl3).
-
-* Wikipedia's [comparative license lists](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses), and  license articles (ex. [MIT](https://en.wikipedia.org/wiki/MIT_License) or [GNU-affero](https://en.wikipedia.org/wiki/Affero_General_Public_License)) and its [infobox metadadata](https://en.wikipedia.org/wiki/Template:Infobox_software_license).
 
 Even with these (total or partial machine-readable) sources, there are some data and interpretations that not exist, so, the [Data Packaged Core Datasets](https://github.com/datasets) community need to check (handly) information from another sources.
 
@@ -38,31 +42,21 @@ The Wikimedia's "rules by territory" reduce but not eliminates the need of repor
 
 
 ### Aggregation and families
+The propourse of [licenses.csv](https://github.com/ppKrauss/licenses/blob/master/data/licenses.csv) is to concentrate all relevant licenses in one dataset of license metadata. We perceive here both the high diversity in the number of lines, as the ability to highlight differences, in the number of columns. For users, the next step in metadata, the main demand, is to group similar licences. 
 
-IMPORTANTE: os atributos de reuso e domínio {is_noreuse,is_generic,domain_content,domain_data,domain_software} não serão utilizados na caracterização ou distinção entre famílias. Do ponto de vista dos direitos e obrigações do usuário final do produto licenseado, esses atributos não causam impacto. O reuso estabelece uma liberdade de cópia do documento-licença em si, que não é escopo da anãlise (o documento licenseado é o escopo). O domínio, ou seja, o tipo de produto ou aplicação do produto, é também indiferente às cláusulas relativas a direitos e obrigações.
+Some fields can be used as key-group. We can use `domain_*` to "select by domain", or `mantainer` to group licenses "by brand".  Using more than one field and some conditions we can "select by similar contract clauses"; fields `is_by`, `is_sa`, `is_salink` and `is_nd` do this role &mdash; the set of fields about clauses was inspired in the ["License Properties" of the ccREL, sec. 3.2](http://www.w3.org/Submission/ccREL/).
 
-As propriedades das licenças foram inspiradas nas "3.2 License Properties" de http://www.w3.org/Submission/ccREL/ 
-(original em https://wiki.creativecommons.org/images/d/d6/Ccrel-1.0.pdf ) , que são propriedades das cláusulas contratuais relevantes da licença, fixando direitos e obrigações do licensente.
+To group licenses by similar contract clauses we can use also a standard selection process, with some curatory revision: this is the rule of the `family` field, it is a functional grouping of licenses.
 
-Benchmarking the popularidade de uma licença (ou versão) é estabelecido por média em mais de uma ferramenta de contagem. A busca no google por exemplo esbarra em contextualização e uso da string de busca sem ambiguidade. Para eventuais médias e comparações de popularidade, a referência é a "CC-BY-3.0", aparentemente a mais popular e reconhecida sem maiores ambiguidades.
+NOTE: the field `is_ref=2` is a control flag to indicate the "most popular representative" of each family, that is a kind of *[canonical](https://en.wikipedia.org/wiki/Canonicalization#Biological_taxonomy) license*, and is used also as family-label. The suffix "*" in the family label indicates "some little restrictions more than the no-suffix family". The field `is_ref=1` is a control flag to indicate the "default in the brand" (to resolve references without version or other maintainer/family/version ambiguities). 
 
 ## Preparation
 
 As curated sources have no automatic merge process, and are all in-progress works, the best way to prepare is into a spreadsheet. So the preparations have two an initial organization steps, and the updating steps.
 
-Initial preparation (concluded):
+ 1. Check if *okfn/licenses* or Wikipedia license-medadata was updated.  Witch `php csv-conv.php > temp.csv`, that generates a basic csv file from each [json at okfn/licenses/licenses](https://github.com/okfn/licenses/tree/master/licenses), we can check the  [CSV file](https://github.com/okfn/licenses/blob/master/licenses.csv) while it is not updated.  Other software may be developed to extract data and check updates from Wikipedia.
 
- 1. With `php csv-conv.php > temp.csv` generates a basic csv file, from each [json at okfn/licenses/licenses](https://github.com/okfn/licenses/tree/master/licenses), that produced 80% of the data at [licenses.csv](./data/licenses.csv).
+ 2. open it in [the collaborative spreadsheet](https://docs.google.com/spreadsheets/d/17RwlPayXj2IBIBszp4wKMdK7OwwPqX125WmF3XFzM0A/edit?usp=sharing), making changes, using the curated sources.
 
- 2. In a spreadsheet add columns that are not in the original `okfn/licenses` dataset.
-
- 3. Add lines from other sources, complementing the data in the spreadsheet.
-
-Updating steps for preparation (in progress):
-
- 1. open it in [the collaborative spreadsheet](https://docs.google.com/spreadsheets/d/17RwlPayXj2IBIBszp4wKMdK7OwwPqX125WmF3XFzM0A/edit?usp=sharing), making changes, using the curated sources.
-
- 2. Make a clone (`git clone https://github.com/ppKrauss/licenses.git`) and save each spreadsheet part (lincenses, families, etc.) as CSV file in the `data` folder. If all ok, commit and make `git push` to update data folder.
-
-
+ 3. Make a clone (`git clone https://github.com/ppKrauss/licenses.git`) and save each spreadsheet part (lincenses, families, etc.) as CSV file in the `data` folder. If all ok, commit and make `git push` to update data folder.
 
