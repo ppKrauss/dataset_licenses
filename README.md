@@ -1,15 +1,14 @@
 # dataset licenses
-
-List all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) [licenses](https://en.wikipedia.org/wiki/Public_copyright_license), open and not-open, superseded or current, **to indexing any kind of cultural work** (documents, softwares, etc.), proprietary or not, that express a license,  or have an [implied license](https://en.wikipedia.org/wiki/Implied_license).
+Comprehensive  set of all useful ([non-vanity](https://en.wikipedia.org/wiki/License_proliferation#Vanity_licenses)) [licenses](https://en.wikipedia.org/wiki/Public_copyright_license), open and proprietary, superseded or current, **to indexing any kind of cultural work** (documents, softwares, etc.), that express a license,  or have a [generic implied license](https://en.wikipedia.org/wiki/Implied_license).
 
 See [dataset proposal #118 for CSV of licenses](https://github.com/datasets/registry/issues/118).
 
 ## Data
 Files described by [datapackage.json](./datapackage.json).
 
-The [licenses.csv](./data/licenses.csv) have all relevant active licenses, and licences highlighted by *status* "superseded" or "retired".
+The [licenses.csv](./data/licenses.csv) have all relevant active licenses, and licenses highlighted by *status* "superseded" or "retired".
 
-Redundant licences are listed at [redundants.csv](./data/redundants.csv), relating with its equivalent (synonymous) licences, as illustred by the "Licenses that are redundant with more popular licenses" at [opensource.org/licenses/category](http://opensource.org/licenses/category). 
+Redundant licenses are listed at [redundants.csv](./data/redundants.csv), relating with its equivalent (synonymous) licenses, as illustred by the "Licenses that are redundant with more popular licenses" at [opensource.org/licenses/category](http://opensource.org/licenses/category). 
 
 The [families.csv](./data/families.csv) is a complement of the family column in the `lincense.csv` dataset, for license aggregation (grouping similar licenses). It  offers also some "sort by openness degreee" criteria, and the column `scope` adds more one level of aggregation.
 
@@ -31,7 +30,7 @@ Even with these (total or partial machine-readable) sources, there are some data
 
 ### Implied licenses
 
-The [implied license](https://en.wikipedia.org/wiki/Implied_license) is a general problem of license-document indexation, because we must to *point the documents license ID*, but have no idea about (exactly) what is the license. The "licence inference process" in general is time consuming, and oficial analysis have a cost... So we can retain a report with this oficial interpretation (or a community endorsement of the report) of document's context and its implied license. For relevant and big document repositories, like law (ex. [N-Lex](http://eur-lex.europa.eu/n-lex/) or [UK-legislation](http://www.legislation.gov.uk/browse)), one report is valid to full repository.
+The [implied license](https://en.wikipedia.org/wiki/Implied_license) is a general problem of license-document indexation, because we must to *point the document's license ID*, but have no idea about (exactly) what is the license. The "license inference process" in general is time consuming, and oficial analysis have a cost... So we can retain a report with this oficial interpretation (or a community endorsement of the report) of document's context and its implied license. For relevant and big document repositories, like law (ex. [LexML](http://projeto.lexml.gov.br/documentacao/resumo-em-ingles) or  a [N-Lex country](http://eur-lex.europa.eu/n-lex/)), one report is valid to the full repository.
 
 As solution, the report describing a implicit license need not be exact: some aggregation level can be used to express the license, that is, is sufficient to indicate the license's *family* (as defined by [okfn/licenses/issues/54](https://github.com/okfn/licenses/issues/54)). 
 
@@ -42,7 +41,7 @@ The Wikimedia's "rules by territory" reduce but not eliminates the need of repor
 
 
 ### Aggregation and families
-The propourse of [licenses.csv](https://github.com/ppKrauss/licenses/blob/master/data/licenses.csv) is to concentrate all relevant licenses in one dataset of license metadata. We perceive here both the high diversity in the number of lines, as the ability to highlight differences, in the number of columns. For users, the next step in metadata, the main demand, is to group similar licences. 
+The purpose of [licenses.csv](https://github.com/ppKrauss/licenses/blob/master/data/licenses.csv) is to concentrate all relevant licenses in one dataset of license metadata. We perceive here both, the high diversity in the number of lines of the file, and  the ability to highlight differences, in the number of columns. For users, the next step and  demand, is to group similar licenses. 
 
 Some fields can be used as key-group. We can use `domain_*` to "select by domain", or `mantainer` to group licenses "by brand".  Using more than one field and some conditions we can "select by similar contract clauses"; fields `is_by`, `is_sa`, `is_salink` and `is_nd` do this role &mdash; the set of fields about clauses was inspired in the ["License Properties" of the ccREL, sec. 3.2](http://www.w3.org/Submission/ccREL/).
 
