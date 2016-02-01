@@ -12,6 +12,8 @@ Redundant licenses are listed at [redundants.csv](./data/redundants.csv), relati
 
 The [families.csv](./data/families.csv) is a complement of the family column in the `lincense.csv` dataset, for license aggregation (grouping similar licenses). It  offers also some "sort by openness degreee" criteria, and the column `scope` adds more one level of aggregation.
 
+NOTE: "openness" or "permissiveness" or ... the metric name can be changed, is a branding matter (for "aggregation and families" conventions see section below, [for concepts, discussion here](https://d.wifo.org/t/license-families-and-license-openness-metrics/190)).
+
 ## Curated sources
 
 There are 2 main (curated) sources of information for populate the datasets of this project,
