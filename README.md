@@ -16,11 +16,13 @@ NOTE: "openness" or "permissiveness" or ... the metric name can be changed, is a
 
 ## Curated sources
 
-There are 2 main (curated) sources of information for populate the datasets of this project,
+There are 3 main (curated) sources of information for populate the datasets of this project,
 
 * [okfn/licenses](https://github.com/okfn/licenses) ([CSV file](https://github.com/okfn/licenses/blob/master/licenses.csv)) and   [licenses.opendefinition.org](http://licenses.opendefinition.org/), the main source.
 
 * Wikipedia's [comparative license lists](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses), [list of free content licenses](https://en.wikipedia.org/wiki/List_of_free_content_licenses) and  the license articles (ex. [MIT](https://en.wikipedia.org/wiki/MIT_License) or [GNU-affero](https://en.wikipedia.org/wiki/Affero_General_Public_License)), each with its [infobox metadadata](https://en.wikipedia.org/wiki/Template:Infobox_software_license).
+
+* [RDFLicense dataset](http://rdflicense.linkeddata.es/) (also a  [git project](https://github.com/oeg-upm/rdflicense)), the ideal format for organizing licenses.
 
 And other primary or secondary sources
 
