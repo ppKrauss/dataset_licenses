@@ -347,9 +347,14 @@
             "description": "ISO 2-letter language label, for license content language"
           },
           {
+            "name": "is_trans",
+            "type": "boolean",
+            "description": "(complement of lang) is a translation of the original/oficial license"
+          },
+          {
             "name": "is_cool",
             "type": "string",
-            "description": "good or cool URLs (and perhaps stable) as https://www.w3.org/TR/cooluris/"
+            "description": "good or cool URLs (so perhaps stable), ressambling https://www.w3.org/TR/cooluris/"
           },
           {
             "name": "url",
