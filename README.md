@@ -10,6 +10,8 @@ The [licenses.csv](./data/licenses.csv) have all relevant active licenses, and l
 
 Redundant licenses are listed at [redundants.csv](./data/redundants.csv), relating with its equivalent (synonymous) licenses, as illustred by the "Licenses that are redundant with more popular licenses" at [opensource.org/licenses/category](http://opensource.org/licenses/category). 
 
+A list of all URLs used as "oficial" and realiable text of the license, are at [license_urls.csv](./data/license_urls.csv). 
+
 The [families.csv](./data/families.csv) is a complement of the family column in the `lincense.csv` dataset, for license aggregation (grouping similar licenses). It  offers also some "sort by openness degreee" criteria, and the column `scope` adds more one level of aggregation.
 
 NOTE: "openness" or "permissiveness" or ... the metric name can be changed, is a branding matter (for "aggregation and families" conventions see section below, [for concepts, discussion here](https://d.wifo.org/t/license-families-and-license-openness-metrics/190)).
