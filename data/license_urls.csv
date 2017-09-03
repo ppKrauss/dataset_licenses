@@ -14,22 +14,19 @@ Apache-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/APACHE2.0,http://
 APL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/APL-1.0,http://www.
 APSL-2.0,trusted,authcopy,en,,x,opensource.org/licenses/APSL-2.0,http://www.
 Artistic-2.0,trusted,authcopy,en,,x,opensource.org/licenses/Artistic-2.0,http://www.
+BEILSTEIN-JOU,forced,original,en,,x,beilstein-journals.org/bjoc,http://www.
 BitTorrent-1.1,trusted,original,en,,x,spdx.org/licenses/BitTorrent-1.1,https://
 BSD,trusted,purl,en,,x,purl.org/NET/rdflicense/FREEBSD1.0,http://
 BSD-2-Clause,trusted,authcopy,en,,x,opensource.org/licenses/BSD-2-Clause,http://www.
-BSD-2-Clause,trusted,original,en,,no,web.archive.org/web/20091125231326/http://www.freebsd.org/copyright/freebsd-license.html,http://
+BSD-2-Clause,trusted,authcopy2,en,,no,web.archive.org/web/20091125231326/http://www.freebsd.org/copyright/freebsd-license.html,http://
 BSD-2-Clause,trusted,purl,en,,x,purl.org/NET/rdflicense/BSD2.0,http://
-BSD-2-Clause,trusted,purl,en,,x,purl.org/NET/rdflicense/BSD4.0,http://
 BSD-3-Clause,trusted,authcopy,en,,x,opensource.org/licenses/BSD-3-Clause,http://www.
 BSD-3-Clause,trusted,purl,en,,x,purl.org/NET/rdflicense/BSD3.0,http://
+BSD-4-Clause,trusted,purl,en,,x,purl.org/NET/rdflicense/BSD4.0,http://
 BSL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/BSL-1.0,http://www.
 CATOSL-1.1,trusted,authcopy,en,,x,opensource.org/licenses/CATOSL-1.1,http://www.
-CC0-1.0,trusted,original,en,,x,creativecommons.org/publicdomain/zero/1.0,http:// https://
-CC0-1.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-zero1.0,http://
-CC0-GOV-US,medium,original,en,,x,usa.gov/government-works,https://www.
-CC-BY-2.0,forced,original,en,,x,beilstein-journals.org/bjoc,http://www.
-CC-BY-2.0,trusted,original,en,,x,creativecommons.org/licenses/by/2.0,http:// https://
-CC-BY-2.0,trusted,original,en,,x,creativecommons.org/licenses/by/2.0/uk,http://
+CC-BY-2.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by/2.0,http:// https://
+CC-BY-2.0,trusted,original-uk,en,,x,creativecommons.org/licenses/by/2.0/uk,http://
 CC-BY-2.0,trusted,purl,at,x,x,purl.org/NET/rdflicense/cc-by2.0at,http://
 CC-BY-2.0,trusted,purl,au,x,x,purl.org/NET/rdflicense/cc-by2.0au,http://
 CC-BY-2.0,trusted,purl,be,x,x,purl.org/NET/rdflicense/cc-by2.0be,http://
@@ -46,7 +43,7 @@ CC-BY-2.0,trusted,purl,kr,x,x,purl.org/NET/rdflicense/cc-by2.0kr,http://
 CC-BY-2.0,trusted,purl,nl,x,x,purl.org/NET/rdflicense/cc-by2.0nl,http://
 CC-BY-2.0,trusted,purl,pt,x,x,purl.org/NET/rdflicense/cc-by2.0pt,http://
 CC-BY-2.0,trusted,purl,uk,x,x,purl.org/NET/rdflicense/cc-by2.0uk,http://
-CC-BY-2.5,trusted,original,en,,x,creativecommons.org/licenses/by/2.5,http://
+CC-BY-2.5,trusted,original-deed,en,,x,creativecommons.org/licenses/by/2.5,http://
 CC-BY-2.5,trusted,purl,ar,x,x,purl.org/NET/rdflicense/cc-by2.5ar,http://
 CC-BY-2.5,trusted,purl,bg,x,x,purl.org/NET/rdflicense/cc-by2.5bg,http://
 CC-BY-2.5,trusted,purl,ch,x,x,purl.org/NET/rdflicense/cc-by2.5ch,http://
@@ -58,7 +55,7 @@ CC-BY-2.5,trusted,purl,in,x,x,purl.org/NET/rdflicense/cc-by2.5in,http://
 CC-BY-2.5,trusted,purl,mx,x,x,purl.org/NET/rdflicense/cc-by2.5mx,http://
 CC-BY-2.5,trusted,purl,pe,x,x,purl.org/NET/rdflicense/cc-by2.5pe,http://
 CC-BY-2.5,trusted,purl,se,x,x,purl.org/NET/rdflicense/cc-by2.5se,http://
-CC-BY-3.0,trusted,original,en,,x,creativecommons.org/licenses/by/3.0,http:// https://
+CC-BY-3.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by/3.0,http:// https://
 CC-BY-3.0,trusted,purl,at,x,x,purl.org/NET/rdflicense/cc-by3.0at,http://
 CC-BY-3.0,trusted,purl,au,x,x,purl.org/NET/rdflicense/cc-by3.0au,http://
 CC-BY-3.0,trusted,purl,br,x,x,purl.org/NET/rdflicense/cc-by3.0br,http://
@@ -82,18 +79,18 @@ CC-BY-3.0,trusted,purl,pt,x,x,purl.org/NET/rdflicense/cc-by3.0pt,http://
 CC-BY-3.0,trusted,purl,ro,x,x,purl.org/NET/rdflicense/cc-by3.0ro,http://
 CC-BY-3.0,trusted,purl,us,x,x,purl.org/NET/rdflicense/cc-by3.0us,http://
 CC-BY-3.0,trusted,purl,ve,x,x,purl.org/NET/rdflicense/cc-by3.0ve,http://
-CC-BY-3.0-IGO,trusted,original,en,,x,creativecommons.org/licenses/by/3.0/igo,https://
-CC-BY-4.0,trusted,original,en,,x,creativecommons.org/licenses/by/4.0,http:// https://
+CC-BY-3.0-IGO,trusted,original-deed,en,,x,creativecommons.org/licenses/by/3.0/igo,https://
 CC-BY-4.0,trusted,original,en,,x,creativecommons.org/licenses/by/4.0/legalcode,https://
+CC-BY-4.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by/4.0,http:// https://
 CC-BY-4.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by4.0,http://
 CC-BY-NC-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc2.0,http://
-CC-BY-NC-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc/3.0,http:// https://
+CC-BY-NC-3.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-nc/3.0,http:// https://
 CC-BY-NC-3.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc3.0,http://
-CC-BY-NC-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc/4.0,http:// https://
+CC-BY-NC-4.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-nc/4.0,http:// https://
 CC-BY-NC-4.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc4.0,http://
 CC-BY-NC-ND-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc-nd2.0,http://
-CC-BY-NC-ND-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-nd/3.0,http://
 CC-BY-NC-ND-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-nd/3.0/legalcode,https://
+CC-BY-NC-ND-3.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-nc-nd/3.0,http://
 CC-BY-NC-ND-3.0,trusted,purl,at,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0at,http://
 CC-BY-NC-ND-3.0,trusted,purl,au,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0au,http://
 CC-BY-NC-ND-3.0,trusted,purl,br,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0br,http://
@@ -112,21 +109,20 @@ CC-BY-NC-ND-3.0,trusted,purl,nl,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0nl,htt
 CC-BY-NC-ND-3.0,trusted,purl,pt,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0pt,http://
 CC-BY-NC-ND-3.0,trusted,purl,ro,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0ro,http://
 CC-BY-NC-ND-3.0,trusted,purl,ve,x,x,purl.org/NET/rdflicense/cc-by-nc-nd3.0ve,http://
-CC-BY-NC-ND-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-nd/4.0,http://
 CC-BY-NC-ND-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-nd/4.0/legalcode,https://
+CC-BY-NC-ND-4.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-nc-nd/4.0,http://
 CC-BY-NC-ND-4.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc-nd4.0,http://
 CC-BY-NC-SA-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc-sa2.0,http://
-CC-BY-NC-SA-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-sa/3.0,http://
 CC-BY-NC-SA-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-sa/3.0/legalcode,https://
+CC-BY-NC-SA-3.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-nc-sa/3.0,http://
 CC-BY-NC-SA-3.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc-sa3.0,http://
-CC-BY-NC-SA-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-sa/4.0,http://
 CC-BY-NC-SA-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-nc-sa/4.0/legalcode,https://
+CC-BY-NC-SA-4.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-nc-sa/4.0,http://
 CC-BY-NC-SA-4.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nc-sa4.0,http://
+CC-BY-ND-2.0,trusted,purl,be,,x,purl.org/NET/rdflicense/cc-by-nd2.0be,http://
 CC-BY-ND-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nd2.0,http://
-CC-BY-ND-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nd2.0be,http://
-CC-BY-ND-2.5,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nd2.5dk,http://
+CC-BY-ND-2.5,trusted,purl,dk,,x,purl.org/NET/rdflicense/cc-by-nd2.5dk,http://
 CC-BY-ND-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nd/3.0/legalcode,https://
-CC-BY-ND-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-nd/4.0/legalcode,https://
 CC-BY-ND-3.0,trusted,purl,at,x,x,purl.org/NET/rdflicense/cc-by-nd3.0at,http://
 CC-BY-ND-3.0,trusted,purl,au,x,x,purl.org/NET/rdflicense/cc-by-nd3.0au,http://
 CC-BY-ND-3.0,trusted,purl,br,x,x,purl.org/NET/rdflicense/cc-by-nd3.0br,http://
@@ -147,9 +143,9 @@ CC-BY-ND-3.0,trusted,purl,ro,x,x,purl.org/NET/rdflicense/cc-by-nd3.0ro,http://
 CC-BY-ND-3.0,trusted,purl,ve,x,x,purl.org/NET/rdflicense/cc-by-nd3.0ve,http://
 CC-BY-ND-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-nd/4.0/legalcode,https://
 CC-BY-ND-4.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-nd4.0,http://
-CC-BY-SA-2.0,trusted,original,en,,x,creativecommons.org/licenses/by-sa/2.0,https://
+CC-BY-SA-2.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-sa/2.0,https://
 CC-BY-SA-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-sa2.0,http://
-CC-BY-SA-3.0,trusted,original,en,,x,creativecommons.org/licenses/by-sa/3.0,https://
+CC-BY-SA-3.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-sa/3.0,https://
 CC-BY-SA-3.0,trusted,purl,at,x,x,purl.org/NET/rdflicense/cc-by-sa3.0at,http://
 CC-BY-SA-3.0,trusted,purl,au,x,x,purl.org/NET/rdflicense/cc-by-sa3.0au,http://
 CC-BY-SA-3.0,trusted,purl,br,x,x,purl.org/NET/rdflicense/cc-by-sa3.0br,http://
@@ -168,9 +164,12 @@ CC-BY-SA-3.0,trusted,purl,nl,x,x,purl.org/NET/rdflicense/cc-by-sa3.0nl,http://
 CC-BY-SA-3.0,trusted,purl,pt,x,x,purl.org/NET/rdflicense/cc-by-sa3.0pt,http://
 CC-BY-SA-3.0,trusted,purl,ro,x,x,purl.org/NET/rdflicense/cc-by-sa3.0ro,http://
 CC-BY-SA-3.0,trusted,purl,ve,x,x,purl.org/NET/rdflicense/cc-by-sa3.0ve,http://
-CC-BY-SA-4.0,trusted,original,en,,x,creativecommons.org/licenses/by-sa/4.0,https://
+CC-BY-SA-4.0,trusted,original-deed,en,,x,creativecommons.org/licenses/by-sa/4.0,https://
 CC-BY-SA-4.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-by-sa4.0,http://
-CC-PDM-1.0,trusted,original,en,,x,creativecommons.org/publicdomain/mark/1.0,http://
+CC-PDM-1.0,trusted,original-deed,en,,x,creativecommons.org/publicdomain/mark/1.0,http://
+CC0-1.0,trusted,original-deed,en,,x,creativecommons.org/publicdomain/zero/1.0,http:// https://
+CC0-1.0,trusted,purl,en,,x,purl.org/NET/rdflicense/cc-zero1.0,http://
+CC0-GOV-US,medium,original,en,,x,usa.gov/government-works,https://www.
 CDDL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/CDDL-1.0,http://www.
 CDDL-1.0,trusted,purl,en,,x,purl.org/NET/rdflicense/CDDL1.0,http://
 CECILL-2.0,trusted,authcopy,en,,x,opensource.org/licenses/CECILL-2.0,http://www.
@@ -178,7 +177,6 @@ CECILL-2.1,trusted,authcopy,en,,x,opensource.org/licenses/CECILL-2.1,http://www.
 CNRI-Python,trusted,authcopy,en,,x,opensource.org/licenses/CNRI-Python,http://www.
 CPAL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/CPAL-1.0,http://www.
 CUA-OPL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/CUA-OPL-1.0,http://www.
-dli-model-use,trusted,original,en,,no,data.library.ubc.ca/datalib/geographic/DMTI/license.html,http://
 dli-model-use,trusted,original,en,,x,data.library.ubc.ca/datalib/geographic/DMTI/license.html,http://
 DSL,trusted,authcopy,en,,x,opendefinition.org/licenses/dsl,http://www.
 ECL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/ECL-1.0,http://www.
@@ -224,7 +222,6 @@ MirOS,trusted,authcopy,en,,x,opensource.org/licenses/MirOS,http://www.
 MIT,trusted,authcopy,en,,x,opensource.org/licenses/MIT,http://www.
 MIT,trusted,purl,en,,x,purl.org/NET/rdflicense/MIT1.0,http://
 mitre,trusted,authcopy,en,,x,opensource.org/licenses/CVW,http://www.
-mitre,trusted,authcopy,en,,,opensource.org/licenses/CVW,http://www.
 Motosoto,trusted,authcopy,en,,x,opensource.org/licenses/Motosoto,http://www.
 MPL-1.0,trusted,authcopy,en,,x,opensource.org/licenses/MPL-1.0,http://www.
 MPL-1.1,trusted,authcopy,en,,x,opensource.org/licenses/MPL-1.1,http://www.
@@ -247,22 +244,17 @@ ODC-PDDL-1.0,trusted,authcopy,en,,x,opendefinition.org/licenses/odc-pddl,http://
 ODC-PDDL-1.0,trusted,original,en,,x,opendatacommons.org/licenses/pddl/1.0,http://
 OFL-1.1,trusted,authcopy,en,,x,opensource.org/licenses/OFL-1.1,http://www.
 OGL-Canada-2.0,trusted,original,en,,x,data.gc.ca/eng/open-government-licence-canada,http://
-OGL-Canada-2.0,trusted,original,en,,,data.gc.ca/eng/open-government-licence-canada,http://
 OGL-UK-1.0,trusted,original,en,,x,reference.data.gov.uk/id/open-government-licence,http://
 OGL-UK-1.0,trusted,purl,en,,x,purl.org/NET/rdflicense/ukogl1.0,http://
-OGL-UK-1.0,trusted,secondary,en,,,reference.data.gov.uk/id/open-government-licence,http://
 OGL-UK-2.0,trusted,original,en,,x,nationalarchives.gov.uk/doc/open-government-licence/version/2,https://www.
-OGL-UK-2.0,trusted,original,en,,,nationalarchives.gov.uk/doc/open-government-licence/version/2,https://www.
 OGL-UK-2.0,trusted,purl,en,,x,purl.org/NET/rdflicense/ukogl2.0,http://
 OGL-UK-3.0,trusted,original,en,,x,nationalarchives.gov.uk/doc/open-government-licence/version/3,https://www.
-OGL-UK-3.0,trusted,original,en,,,nationalarchives.gov.uk/doc/open-government-licence/version/3,https://www.
 OGTSL,trusted,authcopy,en,,x,opensource.org/licenses/OGTSL,http://www.
 OPL-1.0,trusted,original,en,,x,opencontent.org/openpub,http://
 OSDD,trusted,original,en,,x,osdd.net/about-us/osdd-policies/access-policy,http://www.
 OSL-3.0,trusted,authcopy,en,,x,opensource.org/licenses/OSL-3.0,http://www.
-Peer-PL,trusted,copy,en,,x,tldrlegal.com/license/peer-production-license,https://
+Peer-PL,trusted,authcopy,en,,x,tldrlegal.com/license/peer-production-license,https://
 Peer-PL,trusted,original,en,,x,p2pfoundation.net/Peer_Production_License,http://
-Peer-PL,trusted,original,en,,x,tldrlegal.com/license/peer-production-license,https://
 PHP-3.0,trusted,authcopy,en,,x,opensource.org/licenses/PHP-3.0,http://www.
 PostgreSQL,trusted,authcopy,en,,x,opensource.org/licenses/PostgreSQL,http://www.
 Python-2.0,trusted,authcopy,en,,x,opensource.org/licenses/Python-2.0,http://www.

@@ -8,6 +8,7 @@ apache,2.0,Apache-2.0,,1,active,,1,0,,,0,,,,1,not reviewed,approved,Apache Found
 apl,1.0,APL-1.0,,,active,,,,,,,,,,1,not reviewed,approved,,Adaptive Public License 1.0,http://www.opensource.org/licenses/APL-1.0,
 apsl,2.0,APSL-2.0,,,active,2003,,,0,,1,,,,1,not reviewed,approved,Apple Computer,Apple Public Source License 2.0,http://www.opensource.org/licenses/APSL-2.0,
 artistic,2.0,Artistic-2.0,,,active,2000,,,1,0,0,,,,1,not reviewed,approved,Perl Foundation,Artistic License 2.0,http://www.opensource.org/licenses/Artistic-2.0,
+beilstein-jou,,BEILSTEIN-JOU,by-x,,active,,,,,,,,,,,,,,,beilstein-journals.org/bjoc,ERROR? Is not like CC-BY!
 bittorrent,1.1,BitTorrent-1.1,,,active,,,,,,,,,,1,not reviewed,not reviewed,,BitTorrent Open Source License 1.1,https://spdx.org/licenses/BitTorrent-1.1,
 bsd-clause,2,BSD-2-Clause,,,active,,,,,,,,,,1,not reviewed,approved,FreeBSD Foundation,"BSD 2-Clause ""Simplified"" or ""FreeBSD"" License (BSD-2-Clause)",http://www.opensource.org/licenses/BSD-2-Clause,
 bsd-clause,3,BSD-3-Clause,,,active,,,,0,0,,,,,1,not reviewed,approved,FreeBSD Foundation,"BSD 3-Clause ""New"" or ""Revised"" License (BSD-3-Clause)",http://www.opensource.org/licenses/BSD-3-Clause,
